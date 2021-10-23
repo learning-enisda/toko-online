@@ -9,8 +9,8 @@
                 <div class="col-xl-6 col-lg-7">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="/home">Home</a></li>
-                            <li><a href="/shop">Shop</a></li>
+                            <li class=" {{  ($title === "Home") ? 'active' : '' }}"><a href="/home">Home</a></li>
+                            <li><a href="/shop {{  ($title === "Shop") ? 'active' : '' }}">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="./product-details.html">Product Details</a></li>
@@ -19,7 +19,7 @@
                                     <li><a href="/post">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/blog">Blog</a></li>
+                            <li {{  ($title === "Blog") ? 'active' : '' }}><a href="/blog">Blog</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>
                     </nav>

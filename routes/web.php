@@ -25,35 +25,49 @@ Route::get('/', function () {
 
 // ini adalah route untuk tampilan home user 
 Route::get('/home', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
 // ini adalah route untuk tampilan shop user 
 Route::get('/shop', function () {
-    return view('layout.main_shop');
+    return view('layout.main_shop', [
+        "title" => "Shop"
+    ]);
 });
 
 // ini adalah route untuk tampilan checkout user 
 Route::get('/checkout', function () {
-    return view('layout.main_checkout');
+    return view('layout.main_checkout', [
+        "title" => "Checkout"
+    ]);
 });
 
 // ini adalah route untuk tampilan cart user 
 Route::get('/cart', function () {
-    return view('layout.main_cart');
+    return view('layout.main_cart', [
+        "title" => "Cart"
+    ]);
 });
 
 // ini adalah route untuk tampilan blog 
 Route::get('/blog', function () {
-    return view('layout.main_blog');
+    return view('layout.main_blog', [
+        "title" => "Blog"
+    ]);
 });
 
 // ini adalah route untuk tampilan post 
 Route::get('/post', function () {
-    return view('layout.main_post');
+    return view('layout.main_post', [
+        "title" => "Post"
+    ]);
 });
 
 // ini adalah route untuk tampilan kontak 
 Route::get('/contact', function () {
-    return view('layout.main_contact');
+    return view('layout.main_contact', [
+        "title" => "Contact"
+    ]);
 });
