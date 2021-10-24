@@ -65,6 +65,13 @@ Route::get('/post', function () {
     ]);
 });
 
+// ini adalah route untuk tampilan post 
+Route::get('/product-detail', function () {
+    return view('layout.main_detail', [
+        "title" => "Post"
+    ]);
+});
+
 // ini adalah route untuk tampilan kontak 
 Route::get('/contact', function () {
     return view('layout.main_contact', [

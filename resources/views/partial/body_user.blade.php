@@ -8,7 +8,7 @@
                         <h1>Women’s fashion</h1>
                         <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore
                         edolore magna aliquapendisse ultrices gravida.</p>
-                        <a href="#">Shop now</a>
+                        <a href="/shop">Shop now</a>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                             <div class="categories__text">
                                 <h4>Men’s fashion</h4>
                                 <p>358 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="/shop">Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                             <div class="categories__text">
                                 <h4>Kid’s fashion</h4>
                                 <p>273 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="/shop">Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             <div class="categories__text">
                                 <h4>Cosmetics</h4>
                                 <p>159 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="/shop">Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <div class="categories__text">
                                 <h4>Accessories</h4>
                                 <p>792 items</p>
-                                <a href="#">Shop now</a>
+                                <a href="/shop">Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Buttons tweed blazer</a></h6>
+                        <h6><a href="/product-detail">Buttons tweed blazer</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -111,7 +111,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Flowy striped skirt</a></h6>
+                        <h6><a href="/product-detail">Flowy striped skirt</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -134,7 +134,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Cotton T-Shirt</a></h6>
+                        <h6><a href="/product-detail">Cotton T-Shirt</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -156,7 +156,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Slim striped pocket shirt</a></h6>
+                        <h6><a href="/product-detail">Slim striped pocket shirt</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -178,7 +178,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Fit micro corduroy shirt</a></h6>
+                        <h6><a href="/product-detail">Fit micro corduroy shirt</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -201,7 +201,7 @@
                         </ul>
                     </div>
                     <div class="product__item__text">
-                        <h6><a href="#">Tropical Kimono</a></h6>
+                        <h6><a href="/product-detail">Tropical Kimono</a></h6>
                         <div class="rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
