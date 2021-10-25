@@ -13,7 +13,6 @@
                             <li><a href="/shop {{  ($title === "Shop") ? 'active' : '' }}">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="./product-details.html">Product Details</a></li>
                                     <li><a href="/cart">Shop Cart</a></li>
                                     <li><a href="/checkout">Checkout</a></li>
                                     <li><a href="/post">Blog Details</a></li>
@@ -27,15 +26,12 @@
                 <div class="col-lg-3">
                     <div class="header__right">
                         <div class="header__right__auth">
-                            <a href="#">Login</a>
-                            <a href="#">Register</a>
+                            <a href="/login">Login</a>
+                            <a href="/register">Register</a>
                         </div>
                         <ul class="header__right__widget">
                             <li><span class="icon_search search-switch"></span></li>
-                            <li><a href="#"><span class="icon_heart_alt"></span>
-                                <div class="tip">2</div>
-                            </a></li>
-                            <li><a href="#"><span class="icon_bag_alt"></span>
+                            <li><a href="/cart"><span class="icon_bag_alt"></span>
                                 <div class="tip">2</div>
                             </a></li>
                         </ul>
