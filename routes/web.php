@@ -35,6 +35,13 @@ Route::get('/home', function () {
     ]);
 });
 
+// ini adalah route untuk tampilan home user 
+Route::get('/forgot-password', function () {
+    return view('auth.forgot-password', [
+        "title" => "Forgot Password"
+    ]);
+});
+
 // ini adalah route untuk tampilan shop user 
 Route::get('/shop', function () {
     return view('layout.main_shop', [
@@ -73,7 +80,7 @@ Route::get('/post', function () {
 // ini adalah route untuk tampilan post 
 Route::get('/product-detail', function () {
     return view('layout.main_detail', [
-        "title" => "Post"
+        "title" => "Product Details"
     ]);
 });
 
